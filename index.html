@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <meta charset=utf-8 />
+        <title>kidney - детская клиника</title>
+    </head>
+    
+    <body>
+       
+       <!-- Header -->
+       
+        <header class="header">
+           <div class="header__container container">
+              
+              <!-- Logo and navigation -->
+              
+               <div class="header__logo-navigation">
+                  
+                  <!-- Logo -->
+                  
+                   <a href="#" class="logo">
+                       <img class="logo__canvas" src="assets/images/logo.svg" alt="Кидней - детская клиника">
+                   </a>
+                   
+                   <!-- Navigation -->
+                   
+                   <nav class="navigation">
+                       <li class="navigation__li">
+                           <a href="#" class="navigation__link">Услуги</a>
+                       </li>
+                       <li class="navigation__li">
+                           <a href="#" class="navigation__link">Специалисты</a>
+                       </li>
+                       <li class="navigation__li">
+                           <a href="#" class="navigation__link">Отзывы</a>
+                       </li>
+                       <li class="navigation__li">
+                           <a href="#" class="navigation__link">Медиа</a>
+                       </li>
+                       <li class="navigation__li">
+                           <a href="#" class="navigation__link">О клинике</a>
+                       </li>
+                       <li class="navigation__li">
+                           <a href="#" class="navigation__link">Вакцины</a>
+                       </li>
+                       <li class="navigation__li">
+                           <a href="#" class="navigation__link">Контакты</a>
+                       </li>
+                   </nav>
+                   
+               </div>              
+                     
+                    <!-- Address -->         
+                                             
+               <div class="header__address">
+                   <a href="https://yandex.ru/maps/-/CCQtj-Qn9B" class="address__link"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>г. Махачкала, Малыгина 7</a>
+               </div>
+               
+               <!-- Action button -->
+               
+               <div class="header__action-button">
+                   <a href="tel:55-77-27" class="action-button">
+                       <div class="button__inner">
+                           <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+                           <span class="button__text">55-77-27</span>
+                       </div>
+                           
+                       
+                   </a>
+                   
+               </div>
+               
+           </div>
+            
+        </header>
+        
+        <!-- Main -->
+        
+        <main class="main">
+            <section class="main__head">
+                <div class="head__nav container">
+                    <div class="nav__item">
+                        <a href="#" class="nav__link">Главня</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="#" class="nav__link">Лор</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="#" class="nav__link">Перемещение (кукушка)</a>
+                    </div>
+                </div>
+                <div class="head__service container">
+                    <h1 class="head__title">Перемещение (кукушка)</h1>
+                    <!-- Price -->
+                    <div class="price">
+                        <div class="price__text">
+                            <span class="price__subtext"> 
+                                Стоимость:
+                            </span>
+                            <span class="price__subtext">
+                                <b>1500 ₽</b>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Main__inner -->
+            <section class="main__inner">
+                <div class="forn__container container">
+                    <div class="form__header">
+                        <h3 class="form__title"> Записаться на прием
+                            <span class="form__attention">
+                                <span class="attention">
+                                   <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Внимание!
+                                </span>
+                                При заполнении указывайте данные пациента!
+                            </span>
+                        </h3>
+                    </div>
+                    
+                    <!-- Form -->
+                    <form method="post" action="PHP" class="form">
+                        <div class="service__item ">
+                           <label for="" class="supertext">Услуги</label>
+                            <div class="select__box"> 
+                              <span class="select__text">Перемещение кукушка</span>
+                              <span class="select__triggered"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <div class="service__item form__item">
+                            <div class="select__box">
+                                <select name="select__box" id="select__box" class="doctor__select">
+                                    <option value="" class="specialist__name" disabled selected>
+                                        Врач
+                                    </option>
+                                    <option value="" class="specialist__name">
+                                        Иса Гамидов
+                                    </option>
+                                    <option value="" class="specialist__name">
+                                        Марина Джабраилова
+                                    </option>
+                                </select>
+                                <div class="dropdown" style="display: none">
+                                    <div class="dropdown__serch">
+                                        <input type="search" autocomplete="off" placeholder="Поиск...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__item form__item">
+                            <!--<label for="tel" class="form__label">Номер телефона</label>-->
+                            <div class="requirements"></div>
+                            <input required type="tel" id="tel" name="tel" class="form__input" placeholder=" ">
+                            <label for="tel" class="form__label">Номер телефона</label>
+                        </div>
+                        
+                        <div class="service__item form__item">
+                            <!--<label for="service"     class="form__label">Фамилия</label>-->
+                            <div class="requirements"></div>
+                            <input required type="text" id="last_name" name="last_name" placeholder=" " class="form__input">
+                            <label for="last_name" class="form__label">Фамилия</label>
+                            
+                        </div>
+                        <div class="service__item form__item">
+                            <!--<label for="service" class="form__label">Имя</label>-->
+                            <div class="requirements"></div>
+                            <input required type="text" id="name" name="name" placeholder=" " class="form__input">
+                            <label for="name" class="form__label">Имя</label>
+                            
+                        </div>
+                        <div class="service__item form__item">
+                            <!--<label for="service" class="form__label">Отчество</label>-->
+                            <div class="requirements"></div>
+                            <input required type="text" id="second_name"
+                            name="second_name" placeholder=" " class="form__input">
+                            <label for="second_name" class="form__label">Отчество</label>
+                            
+                        </div>
+                        <div class="service__item form__item">
+                            <input type="submit" value="Отправить заявку" id="submit_button" class="submit__button">
+                            
+                        </div>
+                    </form>
+                </div>
+            </section>
+            
+            <!-- Doctors -->
+            <section class="main__bottom">
+                <div class="main_bottom_container container">
+                   <h3 class="specialist__title">Специалисты:</h3>
+                    <div class="specialists">
+                        <div class="specialists__item">
+                            <img src="assets/images/doc-w.jpg" alt="Врач" class="specialists__canvas">
+                            <div class="specialists__characteristic">
+                                <a href="#" class="specialists__link specialists__name">Иса Гамидов</a>
+                                <span class="specialists__text">
+                                    ЛОР, стаж 8 лет
+                                    <span class="specialists__subtext">Принимает с 10:00 до 16:00</span>
+                                    <span class="specialists__subtext">Среда, четверг и пятница</span>
+                                </span>
+                                <a href="#" class="link__more line-link">Узнать подробнее</a>
+                            </div>
+                        </div>
+                        <div class="specialists__item">
+                            <img src="assets/images/doc-w.jpg" alt="Врач" class="specialists__canvas">
+                            <div class="specialists__characteristic">
+                                <a href="#" class="specialists__link specialists__name">Марина Джабраилова</a>
+                                <span class="specialists__text">
+                                   ЛОР, стаж 6 лет
+                                    <span class="specialists__subtext">Принимает с 9:00 до 14:00</span>
+                                    <span class="specialists__subtext">Среда и пятница</span>
+                                </span>
+                                <a href="#" class="link__more line-link">Узнать подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__about">
+                <div class="about container">
+                    <h3 class="about__title">
+                        Описание:
+                    </h3>
+                    <span class="about__text">
+                        Удаление патологического содержимого околоносовых пазух методом перемещения жидкости. Осуществляется при синуситах. Выполняется в положении лежа. Солевой раствор вливают в одну ноздрю и отсосом удаляется через другую. Благодаря интенсивному току жидкости в полости синусов создается отрицательное давление, воспалительное содержимое придаточных пазух (слизь или гной) поступает в полость носа, а затем вымывается.
+                        <br />
+                        <br />
+                        Промывание по Проетцу производится с поднятым мягким небом для предотвращения попадения жидкости в ротовую полость. Необходимого эффекта достигают, прося пациента непрерывно произность "ку-ку", за счет чего возникло популярное название процедуры - "кукушка".
+                    </span>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="foote__container container">
+                <div class="footer__logo">
+                    <a href="#">
+                        <img src="assets/images/logo.svg" alt="footer logo" class="logo__canvas">
+                    </a>
+                </div>
+                <div class="footer__soc">
+                    <a href="#" class="footer__link">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="soc__link line-link">Наш инстаграм</span>
+                    </a>
+                    <p class="copyright">Детская клиника «Kidney» © 2020</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    
+</html>
