@@ -11,7 +11,9 @@
     <body>
        
        <!-- Header -->
-       
+       <div class="backgr">
+       </div>
+       <div class="backgr_two"></div>
         <header class="header">
            <div class="header__container container">
               
@@ -110,8 +112,8 @@
                             <span class="price__subtext"> 
                                 Стоимость:
                             </span>
-                            <span class="price__subtext">
-                                <b>1500 ₽</b>
+                            <span class="price__value">
+                                1500 ₽
                             </span>
                         </div>
                     </div>
@@ -122,7 +124,7 @@
             <section class="main__inner">
                 <div class="forn__container container">
                     <div class="form__header">
-                        <h3 class="form__title"> Записаться на прием:
+                        <h3 class="form__title"> Запишитесь на прием:
                             <span class="form__attention">
                                 <span class="attention">
                                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Внимание!
@@ -134,11 +136,11 @@
                     
                     <!-- Form -->
                     <form method="post" action="PHP" class="form">
-                        <div class="service__item ">
-                           <label for="" class="supertext">Услуги</label>
+                        <div class="service__item block_service ">
+                           <span class="supertext">Услуги</span>
                             <div class="select__box"> 
                               <span class="select__text">Перемещение кукушка</span>
-                              <span class="select__triggered"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                              <span class="select__triggered"><div class="lock"></div></span>
                             </div>
                         </div>
                         <div class="service__item form__item">
@@ -197,7 +199,7 @@
                     </form>
                 </div>
             </section>
-            
+            <hr class="main__inner__line"/>
             <!-- Doctors -->
             <section class="main__bottom">
                 <div class="main_bottom_container container">
@@ -212,7 +214,9 @@
                                     <span class="specialists__subtext">Принимает с 10:00 до 16:00</span>
                                     <span class="specialists__subtext">Среда, четверг и пятница</span>
                                 </span>
-                                <a href="#" class="link__more line-link">Узнать подробнее</a>
+                                <a href="#" class="link__more line-link">Узнать подробнее
+                                    <img class="link_arrow" src="assets/images/arrow (Stroke).svg">
+                                </a>
                             </div>
                         </div>
                         <div class="specialists__item">
@@ -224,7 +228,12 @@
                                     <span class="specialists__subtext">Принимает с 9:00 до 14:00</span>
                                     <span class="specialists__subtext">Среда и пятница</span>
                                 </span>
-                                <a href="#" class="link__more line-link">Узнать подробнее</a>
+                                
+                                <a href="#" class="link__more line-link">Узнать подробнее
+                                    <img class="link_arrow" src="assets/images/arrow (Stroke).svg">
+                                </a>
+                                
+                                
                             </div>
                         </div>
                     </div>
