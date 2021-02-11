@@ -376,9 +376,6 @@ margin-bottom: 50px;
     outline: none;
     border: 1px solid #E50046;
 }
-.form__input:focus + .form__label {
-    opacity: ;
-}
 
 .submit__button {
     width: 340px;
