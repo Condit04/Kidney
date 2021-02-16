@@ -19,11 +19,11 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .backgr_two {
-    z-index: 100;
+    z-index: 1000;
     width: 529px;
     height: 415px;
     top: 767px;
-    left: 1338px;
+    left: 1350px;
     position: absolute;
     background-image: url(../images/shape_2.png);
 }
@@ -44,7 +44,8 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .header__container {
-    max-width: 1920px;
+    max-width: 1550px;
+    width: 100%;
     align-items: center;
     display: flex;
     justify-content: space-between;
