@@ -332,13 +332,14 @@ margin-bottom: 50px;
 .doctor__select {
     
     -webkit-appearance: none;
+    appearance: none;
     border-radius: 30px;
-    border-color: #e0e0e0;
     width: 340px;
     height: 50px;
     padding-left: 20px;
     font-size: 18px;
     outline: none;
+    border: 1px solid #e0e0e0;
 }
 
 .select__text {
