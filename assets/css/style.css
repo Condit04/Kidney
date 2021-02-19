@@ -13,20 +13,14 @@ body, h1, h2, h3, h4, h5, h6 {
     z-index: 0;
     top: 190px;
     left: -20px;
-    width: 350px;
-    height: 757px;
     position: absolute;
-    background-image: url(../images/shape.png);
 }
 
 .backgr_two {
     z-index: 0;
-    width: 529px;
-    height: 415px;
     top: 767px;
-    left: 1350px;
+    right: 0;
     position: absolute;
-    background-image: url(../images/shape_2.png);
 }
 
 .header {
@@ -374,6 +368,7 @@ margin-bottom: 50px;
 .form__input:hover {
     border: 1px solid #E50046;
 }
+
 
 .form__input:focus {
     outline: none;
